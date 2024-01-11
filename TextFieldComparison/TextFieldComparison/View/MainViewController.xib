@@ -23,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="IJe-gK-Of2">
-                    <rect key="frame" x="8" y="230" width="377" height="392"/>
+                    <rect key="frame" x="8" y="242" width="377" height="368"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oel-px-msO">
                             <rect key="frame" x="0.0" y="0.0" width="377" height="80"/>
@@ -51,30 +51,33 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WC3-sO-Bbz">
-                            <rect key="frame" x="0.0" y="312" width="377" height="80"/>
+                            <rect key="frame" x="0.0" y="312" width="377" height="56"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNS-Wu-G0m">
-                                    <rect key="frame" x="0.0" y="0.0" width="120" height="80"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="56"/>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="120" id="LfK-dN-rsU"/>
+                                        <constraint firstAttribute="width" constant="128" id="LfK-dN-rsU"/>
                                     </constraints>
                                 </view>
                                 <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qic-aC-pSz">
-                                    <rect key="frame" x="120" y="0.0" width="137" height="80"/>
+                                    <rect key="frame" x="128" y="0.0" width="121" height="56"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                    <connections>
+                                        <action selector="compareButtonTapped:" destination="-1" eventType="touchUpInside" id="wmf-15-gvu"/>
+                                    </connections>
                                 </button>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xaU-us-LuG">
-                                    <rect key="frame" x="257" y="0.0" width="120" height="80"/>
+                                    <rect key="frame" x="249" y="0.0" width="128" height="56"/>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="120" id="hcY-Xe-SzB"/>
+                                        <constraint firstAttribute="width" constant="128" id="hcY-Xe-SzB"/>
                                     </constraints>
                                 </view>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="height" constant="80" id="kKy-RD-6Gv"/>
+                                <constraint firstAttribute="height" constant="56" id="kKy-RD-6Gv"/>
                             </constraints>
                         </stackView>
                     </subviews>
