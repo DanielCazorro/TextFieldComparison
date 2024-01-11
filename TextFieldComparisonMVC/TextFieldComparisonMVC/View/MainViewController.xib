@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="TextFieldComparisonMVC" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="GCp-Zn-TFa" id="GxW-Oy-z2C"/>
+                <outlet property="firstTextField" destination="12z-fK-uMV" id="wnW-K5-Tt1"/>
+                <outlet property="label" destination="coX-pz-s5e" id="h0S-BK-mvH"/>
+                <outlet property="secondTextField" destination="nmx-4V-Tsh" id="GHG-y2-2Xs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your first text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="12z-fK-uMV">
+                    <rect key="frame" x="16" y="336" width="361" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="jCz-qg-ANi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coX-pz-s5e">
+                    <rect key="frame" x="175.66666666666666" y="474" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCp-Zn-TFa">
+                    <rect key="frame" x="127.33333333333333" y="519" width="138.33333333333337" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Compare Texts"/>
+                    <connections>
+                        <action selector="buttonTap:" destination="-1" eventType="touchUpInside" id="jbv-p2-9f5"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your second text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nmx-4V-Tsh">
+                    <rect key="frame" x="16" y="398" width="361" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nmx-4V-Tsh" firstAttribute="top" secondItem="12z-fK-uMV" secondAttribute="bottom" constant="28" id="CTA-No-UEb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="12z-fK-uMV" secondAttribute="trailing" constant="16" id="FfP-bq-ufX"/>
+                <constraint firstItem="nmx-4V-Tsh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="NzS-2V-9vZ"/>
+                <constraint firstItem="nmx-4V-Tsh" firstAttribute="centerX" secondItem="coX-pz-s5e" secondAttribute="centerX" id="T19-w6-TJE"/>
+                <constraint firstItem="12z-fK-uMV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cgT-v6-SED"/>
+                <constraint firstItem="GCp-Zn-TFa" firstAttribute="top" secondItem="coX-pz-s5e" secondAttribute="bottom" constant="24" id="djd-gd-Vcy"/>
+                <constraint firstItem="coX-pz-s5e" firstAttribute="top" secondItem="nmx-4V-Tsh" secondAttribute="bottom" constant="42" id="hIr-E9-Ryi"/>
+                <constraint firstItem="nmx-4V-Tsh" firstAttribute="centerX" secondItem="GCp-Zn-TFa" secondAttribute="centerX" id="lzm-Bo-ysk"/>
+                <constraint firstItem="12z-fK-uMV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="277" id="m4S-6q-LQG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nmx-4V-Tsh" secondAttribute="trailing" constant="16" id="sqm-yJ-Cmz"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
