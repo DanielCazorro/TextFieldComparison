@@ -27,9 +27,9 @@ class MainViewController: UIViewController {
     // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureTextFields()
-        configureTapGesture()
-        viewModel.viewDelegate = self
+        configureTextFields()   // Configura los text fields para delegar en el ViewController.
+        configureTapGesture()    // Configura un gesto de toque para ocultar el teclado.
+        viewModel.viewDelegate = self  // Asigna la vista como delegada del ViewModel.
     }
     
     // MARK: Private Methods
