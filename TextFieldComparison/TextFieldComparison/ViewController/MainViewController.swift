@@ -51,7 +51,6 @@ class MainViewController: UIViewController {
         view.endEditing(true)
     }
     
-    
     // MARK: IBActions
     
     /// Acción del botón para comparar textos en los textFields.

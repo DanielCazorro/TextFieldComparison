@@ -8,9 +8,11 @@ Una aplicación simple para iOS que permite comparar textos en dos campos de tex
 
 Aquí se muestran algunas capturas de pantalla de la aplicación:
 
-<img src= "https://github.com/DanielCazorro/TextFieldComparison/blob/main/Screenshots/Screenshot1.png" width="300">
-<img src= "https://github.com/DanielCazorro/TextFieldComparison/blob/main/Screenshots/Screenshot2.png" width="300">
-<img src= "https://github.com/DanielCazorro/TextFieldComparison/blob/main/Screenshots/Screenshot3.png" width="300">
+<div style="display: flex; justify-content: space-between;">
+<img src= "https://github.com/DanielCazorro/TextFieldComparison/blob/main/Screenshots/Screenshot1.png" width="150"style="margin-right: 10px;">
+<img src= "https://github.com/DanielCazorro/TextFieldComparison/blob/main/Screenshots/Screenshot2.png" width="150"style="margin-right: 10px;">
+<img src= "https://github.com/DanielCazorro/TextFieldComparison/blob/main/Screenshots/Screenshot3.png" width="150"style="margin-right: 10px;">
+</div>
 
 ## Características
 - Comparación de textos en dos campos de texto.
