@@ -23,26 +23,26 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="IJe-gK-Of2">
-                    <rect key="frame" x="8" y="250" width="377" height="352"/>
+                    <rect key="frame" x="8" y="242" width="377" height="368"/>
                     <subviews>
-                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Text" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Oel-px-msO">
-                            <rect key="frame" x="0.0" y="0.0" width="377" height="72"/>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="252" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oel-px-msO">
+                            <rect key="frame" x="0.0" y="0.0" width="377" height="80"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="72" id="OAA-cd-hkj"/>
+                                <constraint firstAttribute="height" constant="80" id="OAA-cd-hkj"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Second Text" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tcl-2p-QzP">
-                            <rect key="frame" x="0.0" y="112" width="377" height="72"/>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Second Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tcl-2p-QzP">
+                            <rect key="frame" x="0.0" y="120" width="377" height="80"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="72" id="6cZ-PS-WXj"/>
+                                <constraint firstAttribute="height" constant="80" id="6cZ-PS-WXj"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCU-qh-wpw">
-                            <rect key="frame" x="0.0" y="224" width="377" height="32"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCU-qh-wpw">
+                            <rect key="frame" x="0.0" y="240" width="377" height="32"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="32" id="34r-rk-Dgy"/>
                             </constraints>
@@ -51,7 +51,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WC3-sO-Bbz">
-                            <rect key="frame" x="0.0" y="296" width="377" height="56"/>
+                            <rect key="frame" x="0.0" y="312" width="377" height="56"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNS-Wu-G0m">
                                     <rect key="frame" x="0.0" y="0.0" width="128" height="56"/>
@@ -63,7 +63,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qic-aC-pSz">
                                     <rect key="frame" x="128" y="0.0" width="121" height="56"/>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="filled" title="Comparar"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                     <connections>
                                         <action selector="compareButtonTapped:" destination="-1" eventType="touchUpInside" id="wmf-15-gvu"/>
                                     </connections>

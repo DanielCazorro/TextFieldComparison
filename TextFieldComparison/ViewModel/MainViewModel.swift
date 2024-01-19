@@ -25,7 +25,7 @@ class MainViewModel {
     func compareTexts(_ text1: String?, _ text2: String?) {
         guard let text1 = text1, let text2 = text2 else {
             // Al menos uno de los textfields está vacío
-            viewDelegate?.updateLabel("Completa ambos campos de texto")
+            viewDelegate?.updateLabel("Completa ambos textfields")
             return
         }
         
@@ -41,9 +41,9 @@ class MainViewModel {
     /// Actualiza el label con el mensaje correspondiente al textField activo.
     private func updateLabel(isFirstTextField: Bool) {
         if isFirstTextField {
-            viewDelegate?.updateLabel("Escribiendo en el primer campo de texto")
+            viewDelegate?.updateLabel("Escribiendo en el primer textField")
         } else {
-            viewDelegate?.updateLabel("Escribiendo en el segundo campo de texto")
+            viewDelegate?.updateLabel("Escribiendo en el segundo textField")
         }
     }
 }
