@@ -314,7 +314,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9GK3478S4Z;
 				GENERATE_INFOPLIST_FILE = YES;
+<<<<<<< HEAD:TextFieldComparisonMVC/TextFieldComparisonMVC.xcodeproj/project.pbxproj
 				INFOPLIST_FILE = TextFieldComparisonMVC/Info.plist;
+=======
+				INFOPLIST_FILE = TextFieldComparison/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TextFieldComparison;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+>>>>>>> develop:TextFieldComparison/TextFieldComparison.xcodeproj/project.pbxproj
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -341,7 +347,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9GK3478S4Z;
 				GENERATE_INFOPLIST_FILE = YES;
+<<<<<<< HEAD:TextFieldComparisonMVC/TextFieldComparisonMVC.xcodeproj/project.pbxproj
 				INFOPLIST_FILE = TextFieldComparisonMVC/Info.plist;
+=======
+				INFOPLIST_FILE = TextFieldComparison/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TextFieldComparison;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+>>>>>>> develop:TextFieldComparison/TextFieldComparison.xcodeproj/project.pbxproj
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
