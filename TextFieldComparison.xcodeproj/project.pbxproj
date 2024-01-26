@@ -39,6 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CB7BD3D2B63D421002A2CBC /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7973C2B50396C0016BA68 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		2CB7BD3E2B63D42F002A2CBC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CB7BD3D2B63D421002A2CBC /* LaunchScreen */,
+				2CB7BD3F2B63D436002A2CBC /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2CB7BD3F2B63D436002A2CBC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5DC797472B503AAE0016BA68 /* View */,
+				5DC797492B503AB90016BA68 /* ViewController */,
+				5DC797482B503AB40016BA68 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		5DC797252B50396B0016BA68 = {
 			isa = PBXGroup;
 			children = (
@@ -58,24 +85,13 @@
 		5DC797302B50396B0016BA68 /* TextFieldComparison */ = {
 			isa = PBXGroup;
 			children = (
-				5DC797472B503AAE0016BA68 /* View */,
-				5DC797492B503AB90016BA68 /* ViewController */,
-				5DC797482B503AB40016BA68 /* ViewModel */,
-				5DC797462B503AA50016BA68 /* Model */,
+				2CB7BD3E2B63D42F002A2CBC /* UI */,
 				5DC797312B50396B0016BA68 /* AppDelegate.swift */,
 				5DC797332B50396B0016BA68 /* SceneDelegate.swift */,
 				5DC7973A2B50396C0016BA68 /* Assets.xcassets */,
-				5DC7973C2B50396C0016BA68 /* LaunchScreen.storyboard */,
 				5DC7973F2B50396C0016BA68 /* Info.plist */,
 			);
 			path = TextFieldComparison;
-			sourceTree = "<group>";
-		};
-		5DC797462B503AA50016BA68 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		5DC797472B503AAE0016BA68 /* View */ = {
