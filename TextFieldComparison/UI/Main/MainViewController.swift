@@ -22,7 +22,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var myButton: UIButton!
     
     // MARK: Properties
-    let viewModel = MainViewModel()
+    private var viewModel = MainViewModel()
     
     // MARK: Lifecycle
     override func viewDidLoad() {
@@ -33,6 +33,10 @@ class MainViewController: UIViewController {
     }
     
     // MARK: Private Methods
+    
+    func set(viewModel: MainViewModel) {
+        self.viewModel = viewModel
+    }
     
     /// Configura los delegados de los textFields y el gesto de toque.
     private func configureTextFields() {
